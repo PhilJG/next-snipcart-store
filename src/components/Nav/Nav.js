@@ -18,11 +18,11 @@ const Nav = ({ children }) => {
   return (
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
-        <p className={styles.title}>
+      
           <Link href="/">
             <a>Snipcart Store</a>
           </Link>
-        </p>
+   
         <p className={styles.description}>
           <a
             className="snipcart-checkout snipcart-summary"
